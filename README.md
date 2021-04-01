@@ -10,7 +10,7 @@ sudo apt install geoip-bin geoip-database geoipupdate
 
 To enable automatic updates, a free [GeoLite2 Account](https://www.maxmind.com/en/geolite2/signup) is necessary. Once the account is set up, a partially [pre-filled configuration file](https://www.maxmind.com/en/accounts/current/license-key/GeoIP.conf) can be downloaded. Save this file in the */etc* directory as *GeoIP.conf*.
 
-Inside the file, the *YOUR_LICENSE_KEY_HERE* placeholder must be replaced with an actual license key, which can be found on the [account License Keys page] of the newly created account.
+Inside the file, the *YOUR_LICENSE_KEY_HERE* placeholder must be replaced with an actual license key, which can be found on the [account License Keys page](https://www.maxmind.com/en/accounts/current/license-key) of the newly created account.
 
 Finally, to activate automatic updates, a simple cronjob can be defined as follows:
 

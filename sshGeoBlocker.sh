@@ -15,7 +15,7 @@
 ########################################################################################################################
 
 # define list of countries that are allowed SSH access (separated by space ; country codes in all caps)
-allowedCountries="LU NL"
+allowedCountries="LU NL DE FR BE"
 
 # specify log facility
 logFacility="auth.notice"
