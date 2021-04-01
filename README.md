@@ -25,7 +25,7 @@ To configure the script, simply set the following two variables:
 
 ```bash
 # define list of countries that are allowed SSH access (separated by space ; country codes in all caps)
-allowedCountries="LU"
+allowedCountries="US CA"
 
 # specify log facility
 logFacility="auth.notice"
