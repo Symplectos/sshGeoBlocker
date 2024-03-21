@@ -1,8 +1,6 @@
 # SSH GeoBlocker with Fail2Ban
 The *sshGeoBlocker* bash script uses *geoiplookup* to get the location of an IP address from a [MaxMind](https://www.maxmind.com/en/home) [GeoLite2](https://dev.maxmind.com/geoip/geoip2/geolite2/) database. Combining this script with a fail2ban sshd jail, IP addresses can be blocked after a certain number of unsuccessful connection attempts.
 
-The repository is managed on [Codeberg](https://codeberg.org).
-
 ## Installing and Configuring GeoLite2
 On Ubuntu, GeoLite2 can be installed with aptitude:
 
@@ -99,3 +97,10 @@ Please do make sure that a ssh connection to the server is still possible before
 ## References
 * [Axllent](https://www.axllent.org/docs/ssh-geoip/)
 * [GeoLite2](https://dev.maxmind.com/geoip/geoip2/geolite2/)
+
+# Repositories
+Main Repository on [GitLab](https://gitlab.com/Symplectos/ssh-geoblocker).
+
+Push Mirrors:
+* [Codeberg](https://codeberg.org/Symplectos/ssh-geoblocker) <3
+* [GitHub](https://github.com/Symplectos/sshGeoBlocker)
